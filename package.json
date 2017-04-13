@@ -13,5 +13,23 @@
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0",
+    "jscoverage": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlinberg/nodejs-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlinberg/nodejs-project-2/issues"
+  },
+  "homepage": "https://github.com/nlinberg/nodejs-project-2#readme",
+  "description": ""
 }

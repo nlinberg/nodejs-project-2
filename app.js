@@ -44,3 +44,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+module.exports = process.env.APP_COV
+  ? require(__dirname + '/app-cov') 
+  : require(__dirname + '/app')
