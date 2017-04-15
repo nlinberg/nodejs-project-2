@@ -8,7 +8,7 @@ test:
 		$(TESTS)
 
 test-cov: app-cov
-	@APP_COV=1 $(MAKE) --quiet test REPORTER=list > coverage.html
+	@APP_COV=1 $(MAKE) --quiet test REPORTER=html-cov > /var/www/html/index.html
 
 app-cov:
 	@node_modules/jscoverage/bin/jscoverage app.js app-cov.js
